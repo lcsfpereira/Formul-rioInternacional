@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Formulário Colorado</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <h1 id="title">Questionário Colorado</h1>
+  <p id="description">Mostre o seu amor pelo internacional!<p/>
+
+<form action="" id="survey-form">
+  <div class="form-div">
+  <label id="name-label">Nome</label> 
+  <input type="text" id="name" name="name" placeholder="Seu nome" required />
+  </div>
+  <div class="form-div">
+  <label id="email-label">E-mail</label>
+  <input type="email" id="email" name="email" placeholder="Seu e-mail" required />
+  </div>
+  <div class="form-div">
+  <label id="number-label">Idade (opcional)</label>
+  <input type="number" id="number" name="number" min="1" max="120" placeholder="Idade" />
+  </div>
+
+  <div class="form-div">
+  <label id="dropdown-label-jogos">Em média, quantos jogos você acompanha ao ano?</label>
+  <select id="dropdown" name="dropdown">
+  <option value="">Selecione a quantidade</option>
+  <option value="1">Menos de 5 jogos</option>
+  <option value-"2">5-10 jogos</option>
+  <option value="3">Mais de 10 jogos </option>
+  <option value="4">Mais de 25 jogos </option>
+  <option value="5">Mais de 40 jogos </option>
+  <option value="6">Não perco nenhum jogo </option>
+  </select>
+  </div>
+
+  <div class="form-div">
+  <label id="label-radio">Você prefere:</label>
+  </div>
+  <div class="form-radio">
+  <label id="fired"><input type="radio" name="radio" value="fired" checked/> Ser demitido</label>
+  </div>
+  <div class="form-radio">
+  <label id="cuckold"><input type="radio" name="radio" value="cuckold"/> Ser corno</label>
+  </div>
+  <div class="form-radio">
+  <label id="gremista"><input type="radio" name="radio" value="gremista"/> Ser rebaixado</label>
+  </div>
+
+  <div class="form-div">
+  <label id="dropdown-label-trofeu">Escolha um título para 2024:</label>
+  <select id="dropdown-trofeu" name="dropdown-trofeu">
+  <option value="">Selecione a taça</option>
+  <option value="1">Campeonato Brasileiro</option>
+  <option value-"2">Copa do Brasil</option>
+  <option value="3">Copa Sul-Americana</option>
+  <option value="4">Gauchão</option>
+  </select>
+  </div>
+
+  <div class="form-div">
+  <label id="label-checkbox">O que você gostaria de ver no gigantão da zona sul? (selecione 03)</label>
+  </div>
+  <div class="div-checkbox">
+  <input type="checkbox" name="checkbox" value="1"/><label>Rafael Sóbis na direção de futebol</label>
+  </div>
+  <div class="div-checkbox">
+  <input type="checkbox" name="checkbox" value ="2"/><label>A volta da Coreia</label>
+  </div>
+  <div class="div-checkbox">
+  <input type="checkbox" name="checkbox" value="3"/><label>+40k torcedores em todos jogos</label>
+  </div>
+  <div class="div-checkbox">
+  <input type="checkbox" name="checkbox" value="4"/><label>Superavit financeiro</label>
+  </div>
+  <div class="div-checkbox">
+  <input type="checkbox" name="checkbox" value="5"/><label>5x0 no time de canoas</label>
+  </div>
+  <div class="div-checkbox">
+  <input type="checkbox" name="checkbox" value="6"/><label>A volta de Oscar</label>
+  </div>
+  <div class="div-checkbox">
+  <input type="checkbox" name="checkbox" value="7"/><label>Alex Sandro na lateral esquerda</label>
+  </div>
+
+  <br/>
+
+  <div class="form-div">
+    <label id="label-textarea">Faça seu comentário e sugestões para Alessandro Barcellos:</label>
+    <textarea name="suggestion" placeholder="Escreva aqui seu comentário..."></textarea>
+  </div>
+
+  <div class="form-div">
+  <input type="submit" value="Submit" id="submit"/>
+  </div>
+
+</form>
+
+</body>
+
+</html>
